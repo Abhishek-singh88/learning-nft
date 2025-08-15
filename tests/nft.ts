@@ -8,7 +8,7 @@ import {
   SYSVAR_RENT_PUBKEY 
 } from "@solana/web3.js";
 import { 
-  TOKEN_PROGRAM_ID,  // Changed from TOKEN_2022_PROGRAM_ID
+  TOKEN_PROGRAM_ID, 
   ASSOCIATED_TOKEN_PROGRAM_ID,
   getAssociatedTokenAddressSync
 } from "@solana/spl-token";
@@ -132,7 +132,7 @@ describe("Learning Platform NFT Tests", () => {
           mintAuthority: user.publicKey,
           rent: SYSVAR_RENT_PUBKEY,
           systemProgram: SystemProgram.programId,
-          tokenProgram: TOKEN_PROGRAM_ID,  // Changed from TOKEN_2022_PROGRAM_ID
+          tokenProgram: TOKEN_PROGRAM_ID,  
           associatedTokenProgram: ASSOCIATED_TOKEN_PROGRAM_ID,
           tokenMetadataProgram: TOKEN_METADATA_PROGRAM_ID,
         })
@@ -180,7 +180,7 @@ describe("Learning Platform NFT Tests", () => {
         mintKeypair.publicKey,
         user.publicKey,
         false,
-        TOKEN_PROGRAM_ID,  // Changed from TOKEN_2022_PROGRAM_ID
+        TOKEN_PROGRAM_ID, 
         ASSOCIATED_TOKEN_PROGRAM_ID
       );
 
@@ -205,7 +205,7 @@ describe("Learning Platform NFT Tests", () => {
           mintAuthority: user.publicKey,
           rent: SYSVAR_RENT_PUBKEY,
           systemProgram: SystemProgram.programId,
-          tokenProgram: TOKEN_PROGRAM_ID,  // Changed from TOKEN_2022_PROGRAM_ID
+          tokenProgram: TOKEN_PROGRAM_ID,  
           associatedTokenProgram: ASSOCIATED_TOKEN_PROGRAM_ID,
           tokenMetadataProgram: TOKEN_METADATA_PROGRAM_ID,
         })
@@ -228,7 +228,7 @@ describe("Learning Platform NFT Tests", () => {
         mintKeypair.publicKey,
         user.publicKey,
         false,
-        TOKEN_PROGRAM_ID,  // Changed from TOKEN_2022_PROGRAM_ID
+        TOKEN_PROGRAM_ID,  
         ASSOCIATED_TOKEN_PROGRAM_ID
       );
 
@@ -253,7 +253,7 @@ describe("Learning Platform NFT Tests", () => {
           mintAuthority: user.publicKey,
           rent: SYSVAR_RENT_PUBKEY,
           systemProgram: SystemProgram.programId,
-          tokenProgram: TOKEN_PROGRAM_ID,  // Changed from TOKEN_2022_PROGRAM_ID
+          tokenProgram: TOKEN_PROGRAM_ID,  
           associatedTokenProgram: ASSOCIATED_TOKEN_PROGRAM_ID,
           tokenMetadataProgram: TOKEN_METADATA_PROGRAM_ID,
         })
@@ -285,7 +285,7 @@ describe("Learning Platform NFT Tests", () => {
         mintKeypair.publicKey,
         user.publicKey,
         false,
-        TOKEN_PROGRAM_ID,  // Changed from TOKEN_2022_PROGRAM_ID
+        TOKEN_PROGRAM_ID, 
         ASSOCIATED_TOKEN_PROGRAM_ID
       );
 
@@ -315,7 +315,7 @@ describe("Learning Platform NFT Tests", () => {
           mintAuthority: user.publicKey,
           rent: SYSVAR_RENT_PUBKEY,
           systemProgram: SystemProgram.programId,
-          tokenProgram: TOKEN_PROGRAM_ID,  // Changed from TOKEN_2022_PROGRAM_ID
+          tokenProgram: TOKEN_PROGRAM_ID,  
           associatedTokenProgram: ASSOCIATED_TOKEN_PROGRAM_ID,
           tokenMetadataProgram: TOKEN_METADATA_PROGRAM_ID,
         })
