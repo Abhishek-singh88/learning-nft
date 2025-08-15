@@ -24,7 +24,6 @@ pub mod nft {
         Ok(())
     }
 
-    // Simplified: Just mark lesson as completed (frontend validates quiz)
     pub fn complete_lesson(
         ctx: Context<CompleteLesson>,
         lesson_id: u8,
